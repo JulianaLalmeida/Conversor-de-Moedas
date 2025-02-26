@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>DevClub - Convert Money</title>
+</head>
+
+<body>
+    <img class="logo" src="https://m.media-amazon.com/images/I/81cm52hr+XL.png" alt="logo-gif">
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select class="select1">
+                <option value="brl">R$ Real Brasileiro</option>
+                <option value="usd">US$ Dólar</option>
+                <option value="eur">€ Euro</option>
+                <option value="gbp">£ Libra</option>
+                <option value="btc">₿ Bitcoin</option>
+            </select>
+        </label>
+        <label>
+            Converter <b>para</b>
+            <select class="select2">
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="dolar">US$ Dólar</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+            </select>
+        </label>
+        <label>
+            <b>Valor</b>
+            <input type="number" class="value" placeholder="R$10.000">
+        </label>
+        <button class="convertbutton"> Converter </button>
+        <section>
+            <div>
+                <img class="realimg" src="./assets/real.png" alt="img-real">
+                <p class="text1">Real Brasileiro</p>
+                <p class="valuereal">R$ 0,00</p>
+            </div>
+            <img class="arrowimg" src="./assets/arrow.png" alt="img-arrow">
+            <div>
+                <img class="dolarimg" src="./assets/dolar.png" alt="img-dolar">
+                <p class="text2">Dólar</p>
+                <p class="valuedolar">US$ 0,00</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
